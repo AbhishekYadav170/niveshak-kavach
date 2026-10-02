@@ -1,0 +1,286 @@
+[
+  {
+    "id": "guaranteed_return",
+    "concept": "guaranteed_return",
+    "weight": 30,
+    "pattern": "guarantee|guaranteed|100\\s*%\\s*(safe|profit|return)|risk[\\s-]?free|zero\\s*risk|पक्का\\s*मुनाफ़?ा|गारंटी|बिना\\s*(जोखिम|रिस्क)",
+    "why_hi": "कोई भी नियंत्रित (regulated) निवेश रिटर्न की गारंटी नहीं देता।",
+    "why_en": "No regulated investment can guarantee returns.",
+    "actions": [
+      "verify_sebi",
+      "dont_send_money"
+    ]
+  },
+  {
+    "id": "high_return_claim",
+    "concept": "guaranteed_return",
+    "weight": 25,
+    "pattern": "\\d{2,3}\\s*%\\s*(return|returns|profit|munafa|रिटर्न|मुनाफ़?ा)?\\s*(monthly|weekly|daily|per\\s*(month|week|day)|प्रति\\s*(माह|सप्ताह|दिन)|महीने|हफ्ते|रोज़?)",
+    "why_hi": "हर महीने/हफ्ते बहुत ऊँचा रिटर्न असली निवेश में नहीं मिलता।",
+    "why_en": "Very high monthly/weekly returns are a classic scam claim.",
+    "actions": [
+      "verify_sebi",
+      "dont_send_money"
+    ]
+  },
+  {
+    "id": "double_money",
+    "concept": "guaranteed_return",
+    "weight": 25,
+    "pattern": "double\\s*(your\\s*)?money|paisa\\s*double|पैसे?\\s*(दोगुने|दुगने|दोगुना|दुगना)|\\b2x\\s*(return|profit)",
+    "why_hi": "पैसा दोगुना करने का वादा पोंज़ी स्कीम की निशानी है।",
+    "why_en": "Promises to double money are typical of Ponzi schemes.",
+    "actions": [
+      "verify_sebi",
+      "dont_send_money"
+    ]
+  },
+  {
+    "id": "urgency",
+    "concept": "urgency_pressure",
+    "weight": 15,
+    "pattern": "sirf\\s*aaj|aaj\\s*hi|only\\s*today|last\\s*chance|limited\\s*seats?|few\\s*seats|hurry|abhi\\s*join|आज\\s*ही|सिर्फ़?\\s*आज|जल्दी\\s*करो|अभी\\s*जॉइन",
+    "why_hi": "जल्दबाज़ी का दबाव डालना ठगी का तरीका है, ताकि आप सोच न सकें।",
+    "why_en": "Artificial urgency stops you from thinking clearly.",
+    "actions": [
+      "pause_verify"
+    ]
+  },
+  {
+    "id": "secrecy",
+    "concept": "urgency_pressure",
+    "weight": 20,
+    "pattern": "kisi\\s*ko\\s*mat\\s*bata|dont\\s*tell\\s*anyone|don'?t\\s*tell\\s*anyone|keep\\s*(it\\s*)?secret|secret\\s*scheme|किसी\\s*को\\s*(मत|न)\\s*बता",
+    "why_hi": "'किसी को मत बताना' कहना ठगों की चाल है। परिवार से ज़रूर पूछें।",
+    "why_en": "Asking for secrecy is a manipulation tactic. Talk to family first.",
+    "actions": [
+      "show_family"
+    ]
+  },
+  {
+    "id": "group_redirect",
+    "concept": "group_redirect",
+    "weight": 10,
+    "pattern": "t\\.me/|telegram|टेलीग्राम|chat\\.whatsapp\\.com|whatsapp\\s*group|व्हाट्सएप\\s*ग्रुप|join\\s*(our\\s*)?group",
+    "why_hi": "निजी ग्रुप में बुलाना पंप-एंड-डंप जैसी ठगी में आम है।",
+    "why_en": "Pulling you into private groups is common in pump-and-dump scams.",
+    "actions": [
+      "leave_group"
+    ]
+  },
+  {
+    "id": "vip_group_fee",
+    "concept": "group_redirect",
+    "weight": 15,
+    "pattern": "vip\\s*(group|tips?|calls?|signals?)|premium\\s*(group|tips?|calls?)|paid\\s*(tips?|calls?)|वीआईपी\\s*ग्रुप",
+    "why_hi": "पैसे लेकर टिप बेचने वाले अक्सर SEBI में पंजीकृत नहीं होते।",
+    "why_en": "Paid 'tips' sellers are often not SEBI-registered.",
+    "actions": [
+      "verify_sebi",
+      "leave_group"
+    ]
+  },
+  {
+    "id": "apk_install",
+    "concept": "apk_remote",
+    "weight": 25,
+    "pattern": "\\.apk\\b|\\bapk\\s*(file)?\\b|install\\s*(this|our)\\s*app|ऐप\\s*इंस्टॉल|एपीके",
+    "why_hi": "अनजान लिंक से APK/ऐप कभी इंस्टॉल न करें। उसमें वायरस हो सकता है।",
+    "why_en": "Never install an APK/app from an unknown link.",
+    "actions": [
+      "dont_install_apk"
+    ]
+  },
+  {
+    "id": "remote_access",
+    "concept": "apk_remote",
+    "weight": 30,
+    "pattern": "anydesk|team\\s*viewer|quick\\s*support|rustdesk|screen\\s*share|स्क्रीन\\s*शेयर",
+    "why_hi": "रिमोट ऐप से ठग आपके फोन/बैंक तक पहुँच सकते हैं।",
+    "why_en": "Remote-access apps let scammers control your phone and bank apps.",
+    "actions": [
+      "no_remote_access"
+    ]
+  },
+  {
+    "id": "otp_request",
+    "concept": "otp_pin",
+    "weight": 30,
+    "pattern": "(share|send|give|tell|bhej|batao|bata\\s*do|बताओ|बताइए|भेजो|दो)[^.\\n]{0,25}(otp|ओटीपी|cvv|\\bpin\\b)|(otp|ओटीपी|cvv|\\bpin\\b)\\s*(share|send|bhej|batao|बताओ|बताइए|भेजो|दीजिए)",
+    "why_hi": "OTP, PIN या CVV किसी को भी न बताएँ। असली संस्था कभी नहीं माँगती।",
+    "why_en": "Never share OTP, PIN or CVV. Genuine institutions never ask.",
+    "actions": [
+      "dont_share_otp"
+    ]
+  },
+  {
+    "id": "payment_request",
+    "concept": "personal_payment",
+    "weight": 15,
+    "pattern": "\\bupi\\b|paytm|phone\\s*pe|phonepe|gpay|google\\s*pay|account\\s*(number|no)|a/c\\s*no|खाते\\s*में|ट्रांसफर\\s*करो|₹\\s?\\d{3,}|rs\\.?\\s?\\d{3,}",
+    "why_hi": "किसी के निजी UPI/खाते में निवेश का पैसा भेजना खतरनाक है।",
+    "why_en": "Sending investment money to a personal UPI/account is dangerous.",
+    "actions": [
+      "dont_send_money"
+    ]
+  },
+  {
+    "id": "registration_fee",
+    "concept": "personal_payment",
+    "weight": 20,
+    "pattern": "registration\\s*fee|joining\\s*fee|processing\\s*fee|security\\s*deposit|activation\\s*fee|फीस\\s*जमा|रजिस्ट्रेशन\\s*फीस",
+    "why_hi": "पहले फीस/डिपॉज़िट माँगना ठगी की आम निशानी है।",
+    "why_en": "Asking for upfront fees or deposits is a common scam sign.",
+    "actions": [
+      "dont_send_money"
+    ]
+  },
+  {
+    "id": "withdrawal_fee",
+    "concept": "personal_payment",
+    "weight": 30,
+    "pattern": "withdraw\\w*[^.\\n]{0,30}(tax|fee|charge|deposit)|(tax|fee|charge)[^.\\n]{0,30}withdraw|पैसे?\\s*निकालने\\s*(के\\s*लिए|पर)[^.\\n]{0,20}(टैक्स|फीस|चार्ज)",
+    "why_hi": "पैसे निकालने के लिए और पैसे माँगना ठगी का आखिरी चरण होता है।",
+    "why_en": "Demanding fees to let you withdraw is a late-stage scam tactic.",
+    "actions": [
+      "dont_send_money",
+      "call_1930"
+    ]
+  },
+  {
+    "id": "fake_authority",
+    "concept": "sebi_registration",
+    "weight": 10,
+    "pattern": "(rbi|nse|bse|government|govt)\\s*(approved|certified|registered)|सरकारी\\s*(योजना|मान्यता)|आरबीआई\\s*(मान्य|अप्रूव्ड)",
+    "why_hi": "'अप्रूव्ड' लिखा होना सच्चाई का सबूत नहीं। खुद आधिकारिक साइट पर जाँचें।",
+    "why_en": "Writing 'approved' proves nothing. Check on the official website.",
+    "actions": [
+      "verify_sebi"
+    ]
+  },
+  {
+    "id": "celebrity_endorse",
+    "concept": "sebi_registration",
+    "weight": 15,
+    "pattern": "(ambani|sitharaman|adani|ratan\\s*tata|rbi\\s*governor|अंबानी|वित्त\\s*मंत्री|सीतारमण).{0,40}(recommend|endorse|invest|video|बताया|सलाह)",
+    "why_hi": "मशहूर लोगों के नकली (deepfake) वीडियो से ठगी होती है। वीडियो पर भरोसा न करें।",
+    "why_en": "Deepfake videos of famous people are used in scams.",
+    "actions": [
+      "verify_sebi"
+    ]
+  },
+  {
+    "id": "stock_tip_claim",
+    "concept": "stock_tips",
+    "weight": 20,
+    "pattern": "sure\\s*shot|sureshot|jackpot\\s*(stock|call|tip)|insider|operator\\s*(call|tip)?|pakka\\s*tip|एक्सक्लूसिव\\s*टिप|पक्की\\s*टिप",
+    "why_hi": "'पक्की टिप' या 'इनसाइडर जानकारी' जैसी बात ठगी या गैरकानूनी हो सकती है।",
+    "why_en": "'Sure-shot tips' or 'insider info' are scam signals and may be illegal.",
+    "actions": [
+      "verify_sebi"
+    ]
+  },
+  {
+    "id": "pump_dump",
+    "concept": "stock_tips",
+    "weight": 15,
+    "pattern": "upper\\s*circuit|penny\\s*stock|multibagger|next\\s*multibagger|rocket\\s*stock|मल्टीबैगर|अपर\\s*सर्किट",
+    "why_hi": "सस्ते शेयर को 'रॉकेट' बताना पंप-एंड-डंप हो सकता है।",
+    "why_en": "Hyping cheap stocks can be a pump-and-dump.",
+    "actions": [
+      "verify_sebi",
+      "leave_group"
+    ]
+  },
+  {
+    "id": "ipo_scam",
+    "concept": "ipo_scam",
+    "weight": 20,
+    "pattern": "guaranteed\\s*(ipo\\s*)?allot\\w*|pre[\\s-]?ipo|ipo\\s*slot|ipo\\s*allotment\\s*(guarantee|pakka)|अलॉटमेंट\\s*(गारंटी|पक्का)",
+    "why_hi": "IPO में अलॉटमेंट की गारंटी कोई नहीं दे सकता।",
+    "why_en": "Nobody can guarantee IPO allotment.",
+    "actions": [
+      "verify_sebi",
+      "dont_send_money"
+    ]
+  },
+  {
+    "id": "crypto_forex",
+    "concept": "crypto_forex",
+    "weight": 15,
+    "pattern": "usdt|forex\\s*(trading|signal)|binary\\s*option|crypto\\s*(mining|trading|signal)|bitcoin\\s*(double|profit)|क्रिप्टो\\s*(ट्रेडिंग|माइनिंग)",
+    "why_hi": "क्रिप्टो/फॉरेक्स ऑफर पर अक्सर ठगी होती है, और ये SEBI के दायरे में नहीं आते।",
+    "why_en": "Crypto/forex offers are frequently scams and not SEBI-regulated.",
+    "actions": [
+      "call_1930"
+    ]
+  },
+  {
+    "id": "easy_income",
+    "concept": "easy_income",
+    "weight": 15,
+    "pattern": "ghar\\s*baithe\\s*(kamao|earn)|work\\s*from\\s*home[^.\\n]{0,30}(earn|income)|daily\\s*profit|profit\\s*screenshot|रोज़?\\s*कमाओ|घर\\s*बैठे\\s*(कमाओ|कमाई)",
+    "why_hi": "'घर बैठे आसान कमाई' के वादे अक्सर झूठे होते हैं।",
+    "why_en": "'Easy money from home' promises are usually false.",
+    "actions": [
+      "pause_verify"
+    ]
+  },
+  {
+    "id": "ponzi_referral",
+    "concept": "easy_income",
+    "weight": 15,
+    "pattern": "refer\\s*(and|&)\\s*earn|referral\\s*bonus|downline|network\\s*marketing|team\\s*banao|रेफर\\s*करो",
+    "why_hi": "दूसरों को जोड़ने पर कमाई वाली स्कीम पोंज़ी हो सकती है।",
+    "why_en": "Earn-by-recruiting schemes are often Ponzi schemes.",
+    "actions": [
+      "verify_sebi"
+    ]
+  },
+  {
+    "id": "loan_invest",
+    "concept": "loan_invest",
+    "weight": 10,
+    "pattern": "instant\\s*loan|loan\\s*(le\\s*ke|lekar)\\s*invest|margin\\s*funding|उधार\\s*लेकर|लोन\\s*लेकर\\s*निवेश",
+    "why_hi": "कर्ज़ लेकर निवेश/ट्रेडिंग करना बहुत जोखिम भरा है।",
+    "why_en": "Borrowing to invest or trade is very risky.",
+    "actions": [
+      "pause_verify"
+    ]
+  },
+  {
+    "id": "kyc_threat",
+    "concept": "kyc_threat",
+    "weight": 20,
+    "pattern": "(account|demat|pan)\\s*(will\\s*be\\s*)?(blocked|suspended|frozen|freeze)|kyc\\s*(update|expire[ds]?|pending)|खाता\\s*(बंद|ब्लॉक)|केवाईसी\\s*(अपडेट|वेरिफिकेशन)",
+    "why_hi": "'KYC अपडेट करो वरना खाता बंद' वाले मैसेज अक्सर नकली होते हैं।",
+    "why_en": "'Update KYC or lose your account' messages are often fake.",
+    "actions": [
+      "dont_share_otp",
+      "call_1930"
+    ]
+  },
+  {
+    "id": "short_link",
+    "concept": "short_link",
+    "weight": 10,
+    "pattern": "bit\\.ly|tinyurl|cutt\\.ly|rb\\.gy|goo\\.gl|shorturl|is\\.gd",
+    "why_hi": "छोटे लिंक में असली वेबसाइट छिपी रहती है। अनजान लिंक पर क्लिक न करें।",
+    "why_en": "Short links hide the real website. Don't click unknown links.",
+    "actions": [
+      "pause_verify"
+    ]
+  },
+  {
+    "id": "recovery_scam",
+    "concept": "recovery_scam",
+    "weight": 25,
+    "pattern": "recover\\w*\\s*(your\\s*)?(lost\\s*)?money|fund\\s*recovery|refund\\s*agent|पैसे?\\s*वापस\\s*(दिला|कराएं)",
+    "why_hi": "'आपका डूबा पैसा वापस दिलाएँगे' कहने वाले अक्सर दोबारा ठगते हैं।",
+    "why_en": "Recovery 'agents' often scam victims a second time.",
+    "actions": [
+      "call_1930",
+      "scores_complaint"
+    ]
+  }
+]

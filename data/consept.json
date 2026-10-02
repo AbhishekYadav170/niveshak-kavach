@@ -1,0 +1,122 @@
+[
+  {
+    "id": "guaranteed_return",
+    "title_hi": "गारंटीड रिटर्न",
+    "title_en": "Guaranteed Return",
+    "explain_hi": "शेयर बाज़ार, म्यूचुअल फंड जैसे निवेश ऊपर-नीचे होते रहते हैं। इसलिए कोई भी सही संस्था तय रिटर्न का वादा नहीं कर सकती। जो 'पक्का मुनाफा' कहे, वह झूठ बोल रहा है।",
+    "example_hi": "जैसे कोई कहे 'इस साल बारिश पक्का 100 मिमी होगी'। मौसम की गारंटी नहीं होती, बाज़ार की भी नहीं।",
+    "explain_en": "Markets move up and down, so no regulated product can promise fixed returns. Anyone promising certain profit is lying."
+  },
+  {
+    "id": "urgency_pressure",
+    "title_hi": "जल्दबाज़ी और गोपनीयता का दबाव",
+    "title_en": "Urgency and secrecy pressure",
+    "explain_hi": "ठग कहते हैं 'सिर्फ आज' या 'किसी को मत बताना', ताकि आप घर वालों से पूछ न सकें। असली निवेश में सोचने का पूरा समय मिलता है।",
+    "example_hi": "अच्छी दुकान कभी नहीं कहती कि आज ही खरीदो वरना कल नहीं मिलेगा। रुकिए, पूछिए, फिर फैसला लीजिए।",
+    "explain_en": "Scammers rush you and ask for secrecy so you can't consult anyone. Genuine investing allows time to think."
+  },
+  {
+    "id": "group_redirect",
+    "title_hi": "टेलीग्राम/व्हाट्सएप 'टिप' ग्रुप",
+    "title_en": "Tip groups on Telegram/WhatsApp",
+    "explain_hi": "कुछ ग्रुप में एडमिन पहले खुद सस्ते शेयर खरीदते हैं, फिर सबको खरीदने को कहते हैं। दाम चढ़ने पर वे बेच देते हैं और आप फँस जाते हैं। इसे पंप-एंड-डंप कहते हैं।",
+    "example_hi": "जैसे मंडी में कोई पहले सारा सस्ता माल खरीदे, फिर शोर मचाए कि भाव बढ़ेगा, और महँगे में बेचकर निकल जाए।",
+    "explain_en": "Admins buy cheap stocks first, hype them to the group, then sell as price rises, leaving members with losses."
+  },
+  {
+    "id": "apk_remote",
+    "title_hi": "APK और रिमोट ऐप",
+    "title_en": "APK and remote-access apps",
+    "explain_hi": "Play Store के बाहर से आई APK फाइल या AnyDesk जैसे ऐप से ठग आपका फोन चला सकते हैं और बैंक खाली कर सकते हैं। निवेश के लिए ऐसा ऐप कभी नहीं माँगा जाता।",
+    "example_hi": "यह ऐसा है जैसे अजनबी को अपने घर की चाबी दे देना।",
+    "explain_en": "Unknown APKs or remote apps like AnyDesk let scammers control your phone and empty your bank."
+  },
+  {
+    "id": "otp_pin",
+    "title_hi": "OTP, PIN, CVV",
+    "title_en": "OTP, PIN, CVV",
+    "explain_hi": "OTP सिर्फ आपके लिए है। बैंक, SEBI या ब्रोकर कभी फोन या मैसेज पर OTP, PIN या CVV नहीं माँगते। माँगे तो समझिए ठग है।",
+    "example_hi": "OTP आपकी तिजोरी की चाबी जैसा है। चाबी किसी को नहीं देते।",
+    "explain_en": "OTP, PIN and CVV are for you only. Banks, SEBI or brokers never ask for them."
+  },
+  {
+    "id": "personal_payment",
+    "title_hi": "निजी खाते में पैसा या फीस",
+    "title_en": "Paying personal accounts or fees",
+    "explain_hi": "सही ब्रोकर आपके अपने बैंक से सीधे एक्सचेंज/ब्रोकर के आधिकारिक खाते में पैसा लेता है। किसी व्यक्ति के UPI में पैसा भेजना, या पैसे निकालने के लिए टैक्स/फीस देना, ठगी है।",
+    "example_hi": "सरकारी दफ्तर की फीस रसीद के साथ सरकारी खाते में जाती है, किसी आदमी के पर्सनल नंबर पर नहीं।",
+    "explain_en": "Genuine brokers use official channels. Paying a person's UPI or paying fees to withdraw money is a scam."
+  },
+  {
+    "id": "sebi_registration",
+    "title_hi": "SEBI रजिस्ट्रेशन कैसे जाँचें",
+    "title_en": "Checking SEBI registration",
+    "explain_hi": "निवेश सलाह देने वाले को SEBI में पंजीकृत होना ज़रूरी है। नंबर जैसे INH (रिसर्च एनालिस्ट), INA (निवेश सलाहकार), INZ (ब्रोकर) से शुरू होते हैं। सिर्फ 'SEBI registered' लिखा होना काफी नहीं। SEBI की वेबसाइट पर खुद जाँचें।",
+    "example_hi": "जैसे डॉक्टर की डिग्री का नंबर मेडिकल काउंसिल की साइट पर देखा जाता है, वैसे ही सलाहकार का नंबर SEBI पर देखें।",
+    "explain_en": "Advisers must be SEBI-registered (INH, INA, INZ numbers). Just writing 'SEBI registered' is not proof. Verify on SEBI's website."
+  },
+  {
+    "id": "stock_tips",
+    "title_hi": "स्टॉक टिप और पंप-एंड-डंप",
+    "title_en": "Stock tips and pump-and-dump",
+    "explain_hi": "'पक्की टिप', 'इनसाइडर खबर', 'अपर सर्किट लगेगा' जैसे दावे भरोसे लायक नहीं। असल में कोई भविष्य का भाव पक्का नहीं बता सकता। SEBI के अनुसार ज़्यादातर F&O ट्रेडर नुकसान में रहते हैं।",
+    "example_hi": "जैसे कोई कहे 'आज के मैच में कौन जीतेगा, मुझे पक्का पता है'। पक्का किसी को नहीं पता।",
+    "explain_en": "Nobody can know future prices for sure. Most individual F&O traders lose money, per SEBI studies."
+  },
+  {
+    "id": "ipo_scam",
+    "title_hi": "IPO अलॉटमेंट की गारंटी",
+    "title_en": "IPO allotment guarantee",
+    "explain_hi": "IPO में शेयर लॉटरी जैसे सिस्टम से मिलते हैं। कोई एजेंट अलॉटमेंट पक्का नहीं करा सकता। पैसे लेकर 'पक्का अलॉटमेंट' का वादा ठगी है।",
+    "example_hi": "लॉटरी का नंबर पहले से कोई नहीं बता सकता, IPO अलॉटमेंट भी वैसा ही है।",
+    "explain_en": "IPO allotment is by a lottery-like system. No agent can guarantee it."
+  },
+  {
+    "id": "crypto_forex",
+    "title_hi": "क्रिप्टो और फॉरेक्स ऑफर",
+    "title_en": "Crypto and forex offers",
+    "explain_hi": "विदेशी ऐप पर क्रिप्टो या फॉरेक्स में 'डबल पैसा' के ऑफर अक्सर नकली प्लेटफॉर्म होते हैं। शुरू में थोड़ा मुनाफा दिखता है, फिर पैसा निकलने नहीं देते।",
+    "example_hi": "शुरू में दुकानदार थोड़ा इनाम देता है ताकि आप ज़्यादा पैसा लगाओ, फिर दुकान बंद हो जाती है।",
+    "explain_en": "Fake crypto/forex platforms show small early profits, then block withdrawals."
+  },
+  {
+    "id": "easy_income",
+    "title_hi": "आसान कमाई और रेफरल स्कीम",
+    "title_en": "Easy income and referral schemes",
+    "explain_hi": "'घर बैठे रोज़ कमाओ' या 'दूसरों को जोड़ो, कमाओ' वाली स्कीम में पुराने लोगों को नए लोगों के पैसे से पैसा मिलता है। नए लोग रुकते ही स्कीम गिर जाती है।",
+    "example_hi": "जैसे चेन में आखिरी लोग हमेशा नुकसान में रहते हैं।",
+    "explain_en": "In Ponzi/referral schemes, old members are paid from new members' money. It collapses when recruits stop."
+  },
+  {
+    "id": "kyc_threat",
+    "title_hi": "KYC के नाम पर डराना",
+    "title_en": "KYC threat messages",
+    "explain_hi": "'KYC अपडेट करो वरना खाता बंद' वाले मैसेज में लिंक पर क्लिक कराकर आपकी जानकारी चुराई जाती है। KYC सिर्फ अपने ब्रोकर/बैंक के आधिकारिक ऐप या शाखा में कराएँ।",
+    "example_hi": "बैंक कभी SMS के लिंक से पासबुक अपडेट करने को नहीं कहता।",
+    "explain_en": "Fake KYC messages steal your details via links. Do KYC only via your official bank/broker app."
+  },
+  {
+    "id": "short_link",
+    "title_hi": "छोटे और अनजान लिंक",
+    "title_en": "Short and unknown links",
+    "explain_hi": "bit.ly जैसे छोटे लिंक में असली वेबसाइट छिपी होती है। नकली वेबसाइट असली जैसी दिखती है। सिर्फ आधिकारिक साइट खुद टाइप करके खोलें।",
+    "example_hi": "जैसे बंद लिफाफे में क्या है, पता नहीं चलता। खोलने से पहले सोचें।",
+    "explain_en": "Short links hide the real destination. Type official sites yourself."
+  },
+  {
+    "id": "recovery_scam",
+    "title_hi": "पैसा वापस दिलाने वाले",
+    "title_en": "Money-recovery scams",
+    "explain_hi": "ठगी के बाद कुछ लोग 'पैसा वापस दिलाएँगे' कहकर फीस माँगते हैं। यह दूसरी बार ठगी है। सही रास्ता है: 1930 पर कॉल, cybercrime.gov.in, और SEBI SCORES पर शिकायत।",
+    "example_hi": "चोरी के बाद कोई कहे 'फीस दो, सामान लौटाता हूँ', तो वह भी चोर का साथी हो सकता है।",
+    "explain_en": "Recovery 'agents' charge fees and scam again. Use 1930, cybercrime.gov.in and SEBI SCORES."
+  },
+  {
+    "id": "loan_invest",
+    "title_hi": "कर्ज़ लेकर निवेश",
+    "title_en": "Investing with borrowed money",
+    "explain_hi": "इमरजेंसी के पैसे या कर्ज़ से ट्रेडिंग करना सबसे खतरनाक है। नुकसान हुआ तो कर्ज़ फिर भी चुकाना पड़ेगा। सिर्फ वही पैसा लगाएँ जिसके बिना काम चल जाए।",
+    "example_hi": "जैसे खेती के लिए रखे बीज को जुए में लगा देना।",
+    "explain_en": "Never trade with emergency savings or loans. Losses remain but the debt stays."
+  }
+]

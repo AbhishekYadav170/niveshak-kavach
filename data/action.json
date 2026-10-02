@@ -1,0 +1,65 @@
+[
+  {
+    "id": "verify_sebi",
+    "title_hi": "SEBI पर खुद जाँचें",
+    "title_en": "Verify on SEBI yourself",
+    "detail_hi": "sebi.gov.in पर 'Intermediaries/Market Participants' में नाम या रजिस्ट्रेशन नंबर खोजें। मैसेज में दिए लिंक पर न जाएँ।",
+    "link": "https://www.sebi.gov.in"
+  },
+  {
+    "id": "dont_send_money",
+    "title_hi": "अभी पैसा न भेजें",
+    "title_en": "Don't send money yet",
+    "detail_hi": "किसी के निजी UPI/खाते में पैसा न भेजें। पहले परिवार के किसी समझदार व्यक्ति से बात करें।"
+  },
+  {
+    "id": "dont_install_apk",
+    "title_hi": "कोई APK/ऐप इंस्टॉल न करें",
+    "title_en": "Do not install any APK/app",
+    "detail_hi": "सिर्फ Play Store/App Store के आधिकारिक ऐप ही इंस्टॉल करें।"
+  },
+  {
+    "id": "dont_share_otp",
+    "title_hi": "OTP/PIN/CVV किसी को न दें",
+    "title_en": "Never share OTP/PIN/CVV",
+    "detail_hi": "बैंक या ब्रोकर कभी ये नहीं माँगते।"
+  },
+  {
+    "id": "no_remote_access",
+    "title_hi": "रिमोट एक्सेस न दें",
+    "title_en": "Don't give remote access",
+    "detail_hi": "AnyDesk/TeamViewer जैसे ऐप अगर इंस्टॉल हो गए हैं तो उन्हें हटाएँ और बैंक से बात करें।"
+  },
+  {
+    "id": "leave_group",
+    "title_hi": "ग्रुप छोड़ें, चुप रहें",
+    "title_en": "Leave the group",
+    "detail_hi": "ग्रुप में पैसा या निजी जानकारी साझा न करें। एडमिन को रिपोर्ट करें।"
+  },
+  {
+    "id": "pause_verify",
+    "title_hi": "रुकें और जाँचें",
+    "title_en": "Pause and verify",
+    "detail_hi": "कम से कम 24 घंटे रुकें। किसी भरोसेमंद व्यक्ति से पूछें।"
+  },
+  {
+    "id": "show_family",
+    "title_hi": "परिवार को दिखाएँ",
+    "title_en": "Show your family",
+    "detail_hi": "यह नतीजा परिवार के किसी सदस्य को भेजें और उनकी राय लें।"
+  },
+  {
+    "id": "call_1930",
+    "title_hi": "पैसा चला गया? 1930 पर कॉल करें",
+    "title_en": "Lost money? Call 1930",
+    "detail_hi": "जितनी जल्दी कॉल करेंगे, पैसा रुकने की संभावना उतनी ज़्यादा। साथ में cybercrime.gov.in पर शिकायत करें।",
+    "link": "https://cybercrime.gov.in"
+  },
+  {
+    "id": "scores_complaint",
+    "title_hi": "SEBI SCORES पर शिकायत",
+    "title_en": "File a complaint on SEBI SCORES",
+    "detail_hi": "scores.sebi.gov.in पर रजिस्टर करके शिकायत दर्ज करें।",
+    "link": "https://scores.sebi.gov.in"
+  }
+]
