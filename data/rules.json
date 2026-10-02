@@ -274,8 +274,8 @@
   {
     "id": "recovery_scam",
     "concept": "recovery_scam",
-    "weight": 25,
-    "pattern": "recover\\w*\\s*(your\\s*)?(lost\\s*)?money|fund\\s*recovery|refund\\s*agent|पैसे?\\s*वापस\\s*(दिला|कराएं)",
+    "weight": 30,
+    "pattern": "recover\\w*\\s*(your\\s*)?(lost\\s*)?money|(lost|doob\\w*)\\s*money\\s*recover|fund\\s*recovery|refund\\s*agent|पैसे?\\s*वापस\\s*(दिला|कराएं)",
     "why_hi": "'आपका डूबा पैसा वापस दिलाएँगे' कहने वाले अक्सर दोबारा ठगते हैं।",
     "why_en": "Recovery 'agents' often scam victims a second time.",
     "actions": [
