@@ -1,0 +1,78 @@
+{
+  "stages": [
+    {
+      "id": 1,
+      "name_hi": "जाल",
+      "name_en": "Bait",
+      "now_hi": "ठग पहले ऊँचे रिटर्न या आसान कमाई का लालच दिखाते हैं।",
+      "now_en": "Scammers first dangle high returns or easy income.",
+      "next_hi": "इसके बाद वे बातचीत बढ़ाकर आपका भरोसा जीतने की कोशिश करेंगे।",
+      "next_en": "Next they will build your trust through conversation."
+    },
+    {
+      "id": 2,
+      "name_hi": "भरोसा",
+      "name_en": "Trust",
+      "now_hi": "नकली SEBI दावे, मशहूर नाम या निजी ग्रुप से भरोसा बनाया जा रहा है।",
+      "now_en": "Trust is being built with fake SEBI claims, famous names or private groups.",
+      "next_hi": "इसके बाद छोटी रकम, फीस या डिपॉज़िट माँगा जाएगा।",
+      "next_en": "Next they will ask for a small amount, fee or deposit."
+    },
+    {
+      "id": 3,
+      "name_hi": "पैसा",
+      "name_en": "Money",
+      "now_hi": "पैसा, फीस या डिपॉज़िट माँगा जा रहा है, अक्सर जल्दी के दबाव के साथ।",
+      "now_en": "Money, a fee or a deposit is being asked for, often with time pressure.",
+      "next_hi": "इसके बाद ऐप, OTP या रिमोट एक्सेस से आपको फँसाया जाएगा और ज़्यादा पैसा लगवाया जाएगा।",
+      "next_en": "Next they will trap you with apps, OTP or remote access and push you to invest more."
+    },
+    {
+      "id": 4,
+      "name_hi": "फँसाना",
+      "name_en": "Trap",
+      "now_hi": "ऐप, OTP, रिमोट एक्सेस या डर दिखाकर जाल कसा जा रहा है।",
+      "now_en": "The trap is tightening through apps, OTP, remote access or fear.",
+      "next_hi": "इसके बाद पैसा निकालने पर टैक्स या फीस माँगी जाएगी।",
+      "next_en": "Next they will demand tax or fees when you try to withdraw."
+    },
+    {
+      "id": 5,
+      "name_hi": "निकासी पर रोक",
+      "name_en": "Withdrawal block",
+      "now_hi": "पैसा निकालने के लिए और पैसा माँगा जा रहा है, या 'रिकवरी एजेंट' का जाल है।",
+      "now_en": "More money is demanded to let you withdraw, or a 'recovery agent' trap is on.",
+      "next_hi": "इसके बाद आमतौर पर संपर्क बंद हो जाता है। और पैसा न भेजें, तुरंत 1930 पर कॉल करें।",
+      "next_en": "After this contact usually stops. Send no more money and call 1930 immediately."
+    }
+  ],
+  "map": {
+    "guaranteed_return": 1,
+    "high_return_claim": 1,
+    "double_money": 1,
+    "easy_income": 1,
+    "ponzi_referral": 1,
+    "ipo_scam": 1,
+    "crypto_forex": 1,
+    "stock_tip_claim": 1,
+    "pump_dump": 1,
+    "fake_authority": 2,
+    "celebrity_endorse": 2,
+    "group_redirect": 2,
+    "sebi_claim_no_number": 2,
+    "sebi_bad_format": 2,
+    "payment_request": 3,
+    "registration_fee": 3,
+    "vip_group_fee": 3,
+    "urgency": 3,
+    "loan_invest": 3,
+    "apk_install": 4,
+    "remote_access": 4,
+    "otp_request": 4,
+    "secrecy": 4,
+    "kyc_threat": 4,
+    "short_link": 4,
+    "withdrawal_fee": 5,
+    "recovery_scam": 5
+  }
+}
